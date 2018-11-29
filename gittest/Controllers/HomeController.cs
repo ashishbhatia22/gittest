@@ -17,7 +17,7 @@ namespace gittest.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application is in azure.";
+            ViewData["Message"] = "Your application is in azure deployment.";
 
             return View();
         }
